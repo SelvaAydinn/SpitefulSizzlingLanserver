@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+ .button1 {
+   /* Green */
+  border: #ffff;
+ 
+ 
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 5px 6px;
+  cursor: pointer;
+ border-radius: 70px;
+}
+
+
+
+
+
+.App-header {
+  background-image: url("back.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+ 
+  display: flex;
+  flex-direction: column;
+
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+/* DivTable.com */
+.divTable{
+margin-top: 100px;
+float: left;
+	display: table;
+	width: 100%;
+  margin-left:300px;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: 	CDCDB4;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 10px solid 4A708B;
+	display: table-cell;
+	padding: 6px 14px;
+  
+}
+.divTableHeading {
+	background-color: 	DCDCDC;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: 	DCDCDC;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+div.blueTable {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border: 5px solid 	4A708B;
+  background-color: 4A708B;
+
+  width: 350px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+
+input[type=text] {
+  border: 5px solid #ffff;
+  
+  background:transparent;
+}
+
+.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+  
+ border: none;
+  border-bottom: 5px solid #ffff;
+
+  padding: 5px 8px;
+}
+.divTable.blueTable .divTableBody .divTableCell {
+  font-size: 13px;
+  color: #ffffff;
+}
+.blueTable .tableFootStyle {
+  font-size: 8px;
+  font-weight:bold;
+  color: 	4A708B;
+  background: 	4A708B;
+  background: -moz-linear-gradient(top,	4A708B 0%,4A708B 66%, 4A708B 100%);
+  background: -webkit-linear-gradient(top, 4A708B 0%, 4A708B 66%, 	4A708B 100%);
+  background: linear-gradient(to bottom, 4A708B 0%, 	4A708B 66%, 	4A708B 100%);
+}
+.blueTable .tableFootStyle {
+  font-size: 10px;
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+
+.div1 {
+display: table;
+margin-top: 100px;
+margin-left:300px;
+float: left;
+color:#ffff;
+ /*bir önceki katmanın sol yanında yer varsa yeni katman onun yanına yerleşir.*/
+
+ border: 5px solid #ffff;
+ height: 390px;
+width: 290px;
+ border-radius: 20px;
+
+}
+
+
+.labelad {
+float: left;
+border-style:solid double solid double;
+width:100px
+
+}
+
+
+.div1text {
+display: table;
+float: left;
+height: 390px;
+width: 286px;
+border-radius: 20px;
+
+}
+.labelurl {
+float: left;
+border-style:solid double solid double;
+width:100px
+
+}
+
+.grafik{
+float: left;
+border: 5px solid #ffff;
+ height: 200px;
+width: 450px;
+margin-top: 50px;
+margin-left:300px;
+    border-radius: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
